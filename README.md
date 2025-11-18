@@ -100,3 +100,6 @@ Program ini menggunakan arsitektur Model-View-Controller (MVC) dan konsep OOP (O
 5.  Akses aplikasi melalui browser dengan URL seperti `http://localhost/nama_folder_proyek_kamu/`.
 
 ## Dokumentasi
+
+https://github.com/user-attachments/assets/1df1e168-9676-4e3b-b3bb-b44637d95156
+
