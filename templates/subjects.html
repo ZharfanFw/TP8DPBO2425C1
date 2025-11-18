@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="assets/bootstrap.min.css" rel="stylesheet" />
+  <title>Subjects</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.php">Lecturers</a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.php">Home (Lecturers)</a>
+          </li>
+          <li class="nav-item">
+            <a class_="nav-link active" aria-current="page" href="index.php?action=subjects">Subjects</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-4">
+    <h3>Daftar Mata Kuliah</h3>
+    <div class="col-1 my-3">
+      <a type="button" class="btn btn-primary nav-link active" href="index.php?action=add_subject_form">Add New</a>
+    </div>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>NAMA MATA KULIAH</th>
+          <th>SKS</th>
+          <th>DOSEN PENGAMPU</th>
+          <th>ACTIONS</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{DATA_SUBJECTS}}
+      </tbody>
+    </table>
+  </div>
+
+  <script src="assets/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
